@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecalho-header {
+    background: #CCCCCC;
+}
+
+.cabecalho-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 20%;
+}
+
+.cabecalho-linkscontainer {
+    display: flex;
+    gap: 10%;
+    padding-right: 2%;
+}
+
+.cabecalho-links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+}
+
+.container-section-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top, rgb(129, 129, 129), white)
+}
+
+.div-tituloSobre {
+    padding: 2% 0%;
+}
+
+.tituloSobre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.img-paragrafos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+}
+
+.div-paragrafos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.paragrafos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.div-localizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 0%;
+}
+
+.texto-localizacao {
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.maps {
+    width: 50rem;
+    height: 30rem;
+    border: 0;
+}
+
+.img-sobre {
+    width: 18%;
+}
+
+.container-beneficios {
+    text-align: center;
+    margin-bottom: 2.8rem;
+}
+
+.texto-beneficios {
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-beneficios {
+    width: 32%;
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.benefits-list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 1%;
+}
+
+.ul {
+    text-align: start;
+    margin-top: 1rem;
+}
+
+.texto-li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+.footer {
+    text-align: center;
+    background-image: url(img/bg.jpg);
+    padding: 2.5rem;
+}
+
+.footer-paragrafo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
