@@ -183,3 +183,73 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
+
+.allContent-contact {
+    padding: 5% 4%;
+}
+
+.container-form {
+
+}
+
+.label-form, .hora-atendimento {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.input-form, .textarea-form {
+    display: block;
+    margin: 0.1rem 0px 1rem 0px; 
+    padding: 1%;
+    width: 35%;
+}
+
+.submit {
+    display: block;
+    width: 20%;
+    height: 3rem;
+    border: none;
+    border-radius: 0.6rem;
+    background: rgb(255, 196, 0);
+    transition: 2s;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(255, 60, 0);
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.radios-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+fieldset {
+    border: none;
+}
+
+table {
+    margin: 3rem 0rem;
+}
+
+th {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 0.2rem;
+    border: 1px solid black;
+}
+
+td {
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0 2%;
+}
